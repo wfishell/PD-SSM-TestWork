@@ -1,0 +1,39 @@
+{
+  "config": {
+    "task": "parity",
+    "num_layers": 2,
+    "state_size": 128,
+    "embed_size": 128,
+    "dictionary_size": 6,
+    "batch_size": 512,
+    "num_steps": 100001,
+    "print_steps": 5000,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "early_stop_threshold": 0.9995,
+    "num_val_samples": 8192,
+    "val_batch_size": 64,
+    "min_train_length": 3,
+    "max_train_length": 40,
+    "min_val_length": 40,
+    "max_val_length": 256,
+    "seed": 0,
+    "config_name": "parity_0"
+  },
+  "steps": [
+    0,
+    5000,
+    10000,
+    15000,
+    20000
+  ],
+  "val_accs": [
+    0.491943359375,
+    0.4920654296875,
+    0.5631103515625,
+    0.43505859375,
+    0.4830322265625
+  ],
+  "early_stop": false
+}

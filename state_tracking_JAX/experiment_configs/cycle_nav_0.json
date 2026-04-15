@@ -1,0 +1,21 @@
+{
+    "task": "cycle_nav",
+    "num_layers": 2,
+    "state_size": 128,
+    "embed_size": 128,
+    "dictionary_size": 6,
+    "batch_size": 256,
+    "num_steps": 100000,
+    "print_steps": 5000,
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "early_stop_threshold": 0.9995,
+    "num_val_samples": 8192,
+    "min_train_length": 3,
+    "max_train_length": 40,
+    "min_val_length": 40,
+    "max_val_length": 256,
+    "seed": 0,
+    "config_name": "cycle_nav_0"
+}

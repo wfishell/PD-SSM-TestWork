@@ -1,0 +1,49 @@
+{
+  "config": {
+    "task": "parity",
+    "model_name": "pdssm",
+    "num_blocks": 2,
+    "model_dim": 128,
+    "batch_size": 256,
+    "num_steps": 1000,
+    "print_steps": 100,
+    "learning_rate": 0.002,
+    "early_stop_threshold": 0.9995,
+    "block_size": 4,
+    "init_std": 0.5,
+    "diagonal": true,
+    "fwht": false,
+    "use_glu": false,
+    "seed": 0,
+    "config_name": "parity_0",
+    "accumulation_steps": 1,
+    "run": 0
+  },
+  "steps": [
+    0,
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000
+  ],
+  "val_accs": [
+    0.4857177734375,
+    0.4906005859375,
+    0.5013427734375,
+    0.4996337890625,
+    0.5093994140625,
+    0.5084228515625,
+    0.4974365234375,
+    0.740478515625,
+    0.7930908203125,
+    0.86181640625,
+    0.8648681640625
+  ],
+  "early_stop": false
+}
